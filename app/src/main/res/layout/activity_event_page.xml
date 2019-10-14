@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thedate"
+        android:layout_marginTop="10dp"
+        android:text="Event happening on:"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/thedate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="12/12/2012"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="32sp" />
+
+    <RelativeLayout
+        android:id="@+id/add_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date">
+
+        <EditText
+            android:id="@+id/edit_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_bottom"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0sp"
+            android:background="@color/colorPrimary"
+            android:text="Submit"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/product"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/add_product"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>

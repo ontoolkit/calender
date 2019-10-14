@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "564630848482",
+    "firebase_url": "https://srm-calculator.firebaseio.com",
+    "project_id": "srm-calculator",
+    "storage_bucket": "srm-calculator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564630848482:android:a764e59c484df1eda92fbb",
+        "android_client_info": {
+          "package_name": "com.project.srmcalender"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564630848482-4qcpd438lkcqmi2t89dsm5ciajuvu2nm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.srmcalender",
+            "certificate_hash": "4519f44349d82a5aea8d1ff16bd26e5825424db1"
+          }
+        },
+        {
+          "client_id": "564630848482-hf8608f9bu02sa359232095rn96122l5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2gtzNoKe7b1HN-QWN2jFvruRsz1pPQ4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564630848482-hf8608f9bu02sa359232095rn96122l5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
